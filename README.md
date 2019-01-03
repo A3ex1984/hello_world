@@ -1,2 +1,3 @@
 # hello_world
 This is the first project on GITHUB
+I uploaded all my files and then cloned the folder

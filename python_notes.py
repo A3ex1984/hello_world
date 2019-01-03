@@ -1,6 +1,6 @@
 #This is the overview of my python notes
 #Python Documentation: https://docs.python.org/3/contents.html
-#Overview of different Python commands and syntax
+#Overview of different Python commands and syntax for me
 
 #Mixed stuff
 "/n" #Adds a new line 
