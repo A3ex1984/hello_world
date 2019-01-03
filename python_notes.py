@@ -282,3 +282,6 @@ f.close()
 
     #If you pass the read method an integer argument, it will read up to that number of characters, output all of them, and keep the 
     # 'window' at that position ready to read on. 
+
+    Need to learn more VSCode
+    
