@@ -1,7 +1,9 @@
+#This is the overview of my python notes
+#Python Documentation: https://docs.python.org/3/contents.html
 #Overview of different Python commands and syntax
 
 #Mixed stuff
-"/n" 
+"/n" #Adds a new line 
 Data structures are containers that can include different data types.
 A list is an example of a data structure
 All data structures are data types
@@ -17,11 +19,10 @@ print ("The dimensions are {}x{}x{}".format(length, width, height) # .format() t
 
 print("scores: " + str(scores)) #Converts into a String so that it can get concatenated
 
-
 #Mutable and non Mutable
 Lists are mutable
 Tuples are non-mutable
-
+       
 #Common methods
 len()
 max() #In a list of numbers it returns the highest number, in list of strings in returns the one that would appear last in the alphabet
@@ -35,7 +36,6 @@ append() #A helpful method that adds an element to the end of the list
 letters = ['a', 'b', 'c', 'd']
 letters.append('z')
 print(letters)
-
 
 # Definition of a function
 
@@ -63,8 +63,6 @@ def which_prize(points):
 	
 print (which_prize(points))
 
-
-
 def welcome_message(name):
 #Prints out a personalised welcome message
     return "Welcome to this Python script, " + name + "!"
@@ -72,8 +70,6 @@ def welcome_message(name):
 #Call the welcome message function with the input "Udacity Student" 
 #and print the output
 print(welcome_message("Udacity Student"))
-
-
 
 # Definition of an Array/List (Data Structure)
 list_of_random_things = [1, 3.4, 'a string', True]
@@ -280,3 +276,9 @@ def party_planner(cookies, people):
 f = open('my_path/my_file.txt', 'r') # r indicates that the file is in read-only (which is the default) - you can also use w in order to write to it
 file_data = f.read()
 f.close()
+       
+ with open('my_path/my_file.txt', 'r') as f: #Python provides a special syntax that auto-closes a file for you once you're finished using it.
+    file_data = f.read()
+
+    #If you pass the read method an integer argument, it will read up to that number of characters, output all of them, and keep the 
+    # 'window' at that position ready to read on. 
