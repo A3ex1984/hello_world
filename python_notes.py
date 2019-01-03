@@ -284,4 +284,5 @@ f.close()
     # 'window' at that position ready to read on. 
 
     Need to learn more VSCode
+    Need to sync and not refresh    
     
