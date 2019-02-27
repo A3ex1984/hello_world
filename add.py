@@ -7,7 +7,17 @@ k = 17
 list = [1, 4, 10, 56, 78]
 listLength = len(list)
 
-#for i in list:
+def adds_up:
+	i = 0
+	while i<listLength:
+		j = 1
+		while j<=listLength:
+			if (list[i] + list[j] == k):
+				return True
+			else:
+				j++
+	i++
+		
 
 print listLength
 
