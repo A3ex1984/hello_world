@@ -16,7 +16,7 @@ while i<=(listLength-2):
 		if (list[i]+list[j]==k):
 			print ("True")
 		j = j+1
-	break
+	
 	i = i+1
 	print ("False")
 
