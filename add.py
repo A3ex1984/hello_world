@@ -9,4 +9,4 @@ for number in myList:
         print "Number repeated!"
     else:
         seen.append(number)
-	
+
