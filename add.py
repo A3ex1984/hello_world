@@ -10,3 +10,4 @@ for number in myList:
     else:
        seen.append(number)
 print ("Hello World")
+#these functions are not used
